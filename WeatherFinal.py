@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import geocoder
 import io
 
-API_KEY = "721b4bef36b573879bb52a1dd49e8634"
+API_KEY = "API-KEY"
 
 def get_location():
     g = geocoder.ip('me')
